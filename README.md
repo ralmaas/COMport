@@ -9,13 +9,13 @@ In case of changes they will be written to a status-file and a Desktop applicati
 ## COMportDesktop
 This is the desktop program being started by the service when a change in COM-port is detected (removed or added).
 <br>It is a small and very simple program that have three lists: New, Gone and Existing.
-<br>The program is a pure "display info" type of program, the only user interactin is the Exit-button.
+<br>The program is a pure "display info" type of program, the only user interaction is the Exit-button.
 ## Configuration
 The configuration required is added to the programs at initial startup of the Service. 
-<br>Use the "Start parameters:" fileld to add the two required parametes:
+<br>Use the "Start parameters:" field to add the two required parametes:
 <ul>
-<li>Full path to CPMportdesktop
-<li>Full path to the status-file, this is the file used to write detected changes by the service in order to be read by the Desktop application
+<li>Full path to COMportDesktop.exe
+<li>Full path to the status-file. This is the file used to write detected changes by the service in order to be read and displayed by the Desktop application
 </ul>
 Example of an entry:<br>
 C:\Users\roara\source\repos\COMportDesktop\COMportDesktop\bin\Release\COMportDesktop.exe C:\Temp\COMportStatus.txt
