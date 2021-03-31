@@ -1,7 +1,6 @@
 # COMport
-# COMportService & COMportDesktop
-This two programs are a result of fiddling with IOT-stuff (Arduino, ESPxxxx etc) where I needed to know the name of COM-ports either new or gone.
-<br>You may of cause use the Management Consolde, but I would like to have something running that would tell me of changes on the COM-port(s) without having to do any program start.
+The two programs are a result of fiddling with IOT-stuff (Arduino, ESPxxxx etc) where I needed to know the name of COM-ports either new or gone.
+<br>You may of cause use the Management Console, but I would like to have something running that would tell me of changes on the COM-port(s) without having to do any program start.
 <br>Hence came the idea of a Service and a Desktop application that would run each time the computer is started without any further due.
 ## COMportService
 This is a service program being started by a timer every 10 second<br>
