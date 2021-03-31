@@ -18,7 +18,7 @@ The configuration required is added to the programs at initial startup of the Se
 <li>Full path to the status-file. This is the file used to write detected changes by the service in order to be read and displayed by the Desktop application
 </ul>
 Example of an entry:<br>
-C:\Users\roara\source\repos\COMportDesktop\COMportDesktop\bin\Release\COMportDesktop.exe C:\Temp\COMportStatus.txt
+C:\Users\xxxxx\source\repos\COMportDesktop\COMportDesktop\bin\Release\COMportDesktop.exe C:\Temp\COMportStatus.txt
 <br>The Service will also write information to a log-file (COMportService.log). This file is located in the bin-folder of the Service
-(for instance: C:\Users\roara\source\repos\COMportService\COMportService\bin\Release\COMportService.log)
+(for instance: C:\Users\xxxxx\source\repos\COMportService\COMportService\bin\Release\COMportService.log)
 
